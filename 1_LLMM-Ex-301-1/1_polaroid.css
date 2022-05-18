@@ -1,0 +1,64 @@
+*{
+    padding:0;
+    margin: 0;
+    display: flex;
+}
+.img{
+    height: 30px;
+    width: 30px;
+}
+
+.tarjetas{
+    box-sizing: border-box;
+    border:1px;
+    width:200px;
+    height:200px;
+    margin:10px;
+}
+
+.tarjeta1{
+    box-sizing: border-box;
+    animation: polaroid 2s infinity;
+    rotate:-10px;
+    width
+}
+
+.tarjeta2{
+    box-sizing: border-box;
+    animation: polaroid 2s infinity;
+    rotate:10px;
+}
+.tarjeta3{
+    box-sizing: border-box;
+    animation: polaroid 2s infinity;
+    rotate:-10px;
+}
+.tarjeta4{
+    box-sizing: border-box;
+    animation: polaroid 2s infinity;
+    rotate:10px;
+}
+
+.h1{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    align-self: center;
+}
+
+@keyframes polaroid{
+    0%{
+        background-color: yellow;
+    }
+    30%{
+        background-color: green;
+    }
+    60%{
+        background-color: blue;
+    }
+    90%{
+        background-color: red;
+    }
+    100%{
+        background-color: orangered;
+    }
+}

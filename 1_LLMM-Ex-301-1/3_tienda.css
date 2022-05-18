@@ -1,17 +1,23 @@
-.title{
-    font-size: 16px;
-    font-family: Arial;
-    color: red;
-}
-
-.encabezado{
-    font-family:cortina;
-    font-size:12px;
-    color:blue;
-}
-
-.descripcion{
-    font-family:cortina;
-    font-size:8px;
-    color:green;
-}
+header {
+    font-size: 30px;
+    text-align: center;
+  }
+  #introducion {
+    width: 100%;
+    background-color: grey;
+    border-radius: 15px;
+    text-align: center;
+  }
+  .cajadeproductos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+  }
+  .producto {
+    background-color: grey;
+    padding: 5px;
+  }
+  .producto:hover {
+    border-radius: 15px;
+    transform: scale(1.05);
+  }

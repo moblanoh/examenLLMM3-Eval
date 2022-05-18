@@ -3,8 +3,33 @@
 
 <tienda>
              
-    <title>Tienda Online</title>
-    <encabezado>Bienvenid@s a mi tienda</encabezado>
-    <descripcion>Esto es una tienda online que vende productos a través de internet</descripcion>
-             
+    <title>Tienda Online de Mónica</title>
+    <encabezado>Bienvenidos a mi tienda de todo tipo</encabezado>
+    <descripcion>Esto es una tienda online de productos informáticos y Utensilio escolares</descripcion>
+      
+    <productos>
+        <producto>
+            <titulo>Boligrafos</titulo>
+            <descripcionproducto>Utensilio para la escritura</descripcionproducto>
+            <precio>2 euros</precio>
+        </producto>
+
+        <producto>
+            <titulo>Ordenadores</titulo>
+            <descripcionproducto>Utensilio informático</descripcionproducto>
+            <precio>315 euros</precio>
+        </producto>
+
+        <producto>
+            <titulo>Movil</titulo>
+            <descripcionproducto>Utensilio infrmático</descripcionproducto>
+            <precio>655 euros</precio>
+        </producto>
+
+        <producto>
+            <titulo>Lapiz</titulo>
+            <descripcionproducto>Utensilio para escribir</descripcionproducto>
+            <precio>1.00 euros</precio>
+        </producto>
+    </productos>
 </tienda>
